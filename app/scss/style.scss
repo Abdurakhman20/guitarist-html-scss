@@ -630,6 +630,38 @@ $color-grey: #e2e2e2;
     width: 100%;
   }
 
+  .main-section {
+    &__first-elipse {
+      top: -15px;
+      right: 60px;
+    }
+    .left-wrapper {
+      img {
+        top: -13px;
+        left: -120px;
+      }
+    }
+    .right-wrapper {
+      right: -60px;
+      top: 50px;
+      &__title {
+        font-size: 35px;
+      }
+      &__text {
+        max-width: 300px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      &__icons-box {
+        .icons__item {
+          border: 1px solid #000;
+        }
+      }
+    }
+  }
+
   .about-training {
     min-height: 430px;
     &__cards-box {
@@ -668,7 +700,7 @@ $color-grey: #e2e2e2;
       padding-left: 10px;
     }
     &__left-title {
-      font-size: 30px;
+      display: none;
     }
     &__first-elipse {
       top: 135px;
@@ -710,9 +742,17 @@ $color-grey: #e2e2e2;
     &__img {
       width: 340px;
       left: -45px;
+      bottom: -85px;
+    }
+    &__container {
+      justify-content: center;
     }
     &__title {
-      font-size: 35px;
+      text-align: center;
+    }
+    .title__hr_top {
+      bottom: 34px;
+      left: 15px;
     }
   }
 }
